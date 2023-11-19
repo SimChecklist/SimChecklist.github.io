@@ -128,15 +128,6 @@
             }
         }
 
-        div:nth-child(odd) {
-            float: left;
-            padding-left: 50px;
-        }
-
-        div:nth-child(even) {
-            float: right;
-            padding-right: 50px;
-        }
 
         .button-34 {
             background: #5E5DF0;
@@ -167,21 +158,25 @@
 </head>
 
 <body>
-    <button style="margin: 0 2%; float:left" onclick="location.href = 'index.html'" ; class="button-34"
-        role="button">Home</button>
+    <div style="padding-left: 2%;">
+    <button style="float: left;" onclick="location.href = 'index.html'" ; class="button-34"
+        role="button">Home</button></div>
     <center>
         <header>
             <H1>737 NG Checklist</H1>
         </header>
     </center>
-    <div style="padding-top: 30px;">
+
+    <br>
+    <div style="padding-top: 30px; float: left;
+    padding-left: 50px;">
         <table style="row-gap: 0px; left: 10px">
             <tr>
                 <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
                     colspan="3" class="headText">Pre-Flight Checklist</th>
             </tr>
             <tr style="display: flexbox;">
-                <td><input type="checkbox" class="""></td>
+                <td><input type="checkbox" class=""></td>
                 <td>Parking Break</td>
                 <td>Set</td>
             </tr>
@@ -380,7 +375,8 @@
                         <h2 style="color:red;">For Simulation Purposes Only</h2>
                     </center>
     </div>
-        <div style="padding-top: 50px;">
+        <div style="padding-top: 30px; float: right;
+        padding-right: 50px;">
         <table style="row-gap: 0px; ">
             <tr>
                 <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"

@@ -383,6 +383,7 @@
                     <td>Start</td>
                 </tr>
             </table>
+            <br>
             <table style="row-gap: 0px; left: 10px; width: 100%;">
             <tr>
                 <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
@@ -400,12 +401,16 @@
             </tr>
             <tr style="display: flexbox;">
                 <td><input type="checkbox" class=""></td>
-                <td>Runway Turn Light</td>
+                <td>Runway Turn Lights</td>
                 <td>Off</td>
             </tr>
+            <tr style="display: flexbox;">
+                <td><input type="checkbox" class=""></td>
+                <td>Cabin Lights</td>
+                <td>As Req.</td>
+            </tr>
             </table>
-        </div>
-            <div class="righttable", style="padding-top: 30px; float: right;padding-right: 50px;">
+            <br>
             <table style="row-gap: 0px; left: 10px; width: 100%;">
                 <tr>
                     <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
@@ -449,7 +454,7 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Seat Belt Signs</td>
+                    <td>Passenger Signs</td>
                     <td>Off</td>
                 </tr>
                 <tr style="display: flexbox;">
@@ -458,8 +463,9 @@
                     <td>Set</td>
                 </tr>
             </table>
+        </div>
+            <div class="righttable", style="padding-top: 30px; float: right;padding-right: 50px;">
             <table style="row-gap: 0px; left: 10px; width: 100%;">
-                <br>
                 <tr>
                     <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
                         colspan="3" class="headText">Descent Preperation</th>
@@ -498,26 +504,6 @@
                     <td>Set</td>
                 </tr>
                 <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Reset MCP Altitude</td>
-                    <td>Check</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>FMS Appr. Speed Ref</td>
-                    <td>Set</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Localizer Freq.</td>
-                    <td>Set</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>ILS Loc Course</td>
-                    <td>Set</td>
-                </tr>
-                <tr style="display: flexbox;">
                     <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Descent</td>
                 </tr>
                 <tr style="display: flexbox;">
@@ -531,27 +517,12 @@
                     <td>Check</td>
                 </tr>
                 <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Recall (-800 Only)</td>
-                    <td>Check</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Radio Alt/Baro Min</td>
-                    <td>Set, Check</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Auto Brake</td>
-                    <td>As Req.</td>
-                </tr>
-                <tr style="display: flexbox;">
                     <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Passing Transition Altitude</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
                     <td>Altimiter</td>
-                    <td>Reset To Local</td>
+                    <td>Set</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Below 10,000ft</td>
@@ -588,17 +559,17 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Localizer Freq.</td>
-                    <td>Check</td>
+                    <td>Auto Brake</td>
+                    <td>As Req.</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Localizer Course</td>
-                    <td>Check</td>
+                    <td>Landing Systems</td>
+                    <td>On</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>App</td>
+                    <td>LOC</td>
                     <td>Arm</td>
                 </tr>
                 <tr style="display: flexbox;">
@@ -609,22 +580,17 @@
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
                     <td>Flaps</td>
-                    <td>15</td>
+                    <td>Extend</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Speedbrake</td>
+                    <td>Spoilers</td>
                     <td>Arm</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>CMD B</td>
-                    <td>Arm (When ILS est.)</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Engine Start Switches</td>
-                    <td>Cont.</td>
+                    <td>Nose Light</td>
+                    <td>Takeoff</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
@@ -637,11 +603,6 @@
                 <tr>
                     <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
                         colspan="3" class="headText">Landing Checklist</th>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Go-Around Altitude</td>
-                    <td>Check</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
@@ -745,21 +706,6 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Probe Heat</td>
-                    <td>Off</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Eng Start Switches</td>
-                    <td>Off</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Autobrake</td>
-                    <td>Off</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
                     <td>Runway Turn Lights</td>
                     <td>Off</td>
                 </tr>
@@ -770,8 +716,8 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Taxi Lights</td>
-                    <td>Off</td>
+                    <td>Nose Light</td>
+                    <td>Taxi</td>
                 </tr>
             </table>
             <table style="row-gap: 0px; left: 10px; width: 100%;">
@@ -787,7 +733,7 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Engine Fuel Levers</td>
+                    <td>Engine Master 1+2</td>
                     <td>Off</td>
                 </tr>
                 <tr style="display: flexbox;">
@@ -802,12 +748,7 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>APU Bleed</td>
-                    <td>On</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Anti Coll Lights</td>
+                    <td>Beacon Lights</td>
                     <td>Off</td>
                 </tr>
                 <tr style="display: flexbox;">
@@ -817,23 +758,8 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Left Aft Fuel Pump</td>
-                    <td>On</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
                     <td>Anti Ice</td>
                     <td>Off</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Elec Hyd Pumps</td>
-                    <td>Off</td>
-                </tr>
-                <tr style="display: flexbox;">
-                    <td><input type="checkbox" class=""></td>
-                    <td>Isolation Valve</td>
-                    <td>Open</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
@@ -869,7 +795,7 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>L Aft Fuel Pump</td>
+                    <td>Crew Supply</td>
                     <td>Off</td>
                 </tr>
                 <tr style="display: flexbox;">
@@ -879,7 +805,7 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Window Heat</td>
+                    <td>TCAS</td>
                     <td>Off</td>
                 </tr>
                 <tr style="display: flexbox;">
@@ -899,12 +825,12 @@
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Sdby Power</td>
+                    <td>External Power</td>
                     <td>Off</td>
                 </tr>
                 <tr style="display: flexbox;">
                     <td><input type="checkbox" class=""></td>
-                    <td>Battery</td>
+                    <td>Battery 1+2</td>
                     <td>Off</td>
                 </tr>
             </table>

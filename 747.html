@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=B612' rel='stylesheet'>
+    <link rel="icon" href="/Simchecklistico.png">
+    <title>Sim Checklists | Boeing 747</title>
+    <style>
+        .container {
+            overflow: hidden; /* Clear the floats */
+        }
+        body {
+            margin: 0px;
+            font-family: 'B612';
+            background-color: #333;
+            color: whitesmoke;
+            min-height: 100vh;
+        }
+        table,th {
+            border: 2px solid black;
+            text-align: center;
+            border-spacing: 0px;
+            box-sizing: border-box;
+        }
+
+        headText {
+            color: black;
+            font-weight: bold;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #eeeeee;
+        }
+
+        tr:nth-child(even) {
+            background-color: #cecece;
+        }
+
+        td:nth-child(3n) {
+            padding-left: 20px;
+            font-style: italic;
+            color: black;
+            box-sizing: border-box;
+        }
+
+        td:nth-child(2n) {
+            padding-right: 20px;
+            color: black;
+        }
+        .lefttable{
+            width: 40%;
+            padding-top: 30px; 
+            float: left;
+            padding-left: 50px;
+        }
+        .righttable{
+            width: 40%;
+            padding-top: 30px; 
+            float: right;
+            padding-right: 50px;
+        }
+        .box {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+        .button-34 {
+            background: #5E5DF0;
+            border-radius: 999px;
+            box-shadow: #5E5DF0 0 10px 20px -10px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            opacity: 1;
+            outline: 0 solid transparent;
+            padding: 8px 18px;
+            user-select: none;
+            width: fit-content;
+            word-break: break-word;
+            border: 0;
+            transition-duration: 0.4s;
+        }
+
+        .button-34:hover {
+            background-color: #5353d4;
+            color: white;
+        }
+        a:link {
+            color: red;
+        }
+            /* visited link */
+        a:visited {
+            color: red;
+        }
+        /* mouse over link */
+        a:hover {
+        color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="padding-left: 2%;">
+    <button style="float: left; position: absolute;" onclick="location.href = 'index.html'" ; class="button-34"role="button">Home</button>
+    </div>
+    <header style="text-align: center; ">
+        <h1>Boeing 747 Checklist</h1>
+    </header>
+    <br>
+    <div class=".container">
+        <div class="lefttable">
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Pre-Flight Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Parking Brake</td>
+                    <td>Set</td>
+                </tr>
+                <tr style=" display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Battery Master</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>STBY Power</td>
+                    <td>Auto</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Fuel Pumps</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>APU</td>
+                    <td>Start</td>
+                </tr>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>APU Gen</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Bus Tie Switches</td>
+                    <td>Auto</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Pos Lights</td>
+                    <td>Steady</td>
+                </tr>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Logo Lights</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Cabin Lights</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Emer Exit Lights</td>
+                    <td>Guard Closed</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Passenger Signs</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Packs</td>
+                    <td>Auto/High</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>IRS Selectors</td>
+                    <td>Off -> Nav</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>FMC</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Request Clearance</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Transponder</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>IAS/ Mach Speed</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>HDG/Takeoff Rwy</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Initial Alt</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Yaw Damper</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Window Heat</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Flight Alt.</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Landing Alt.</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Flight Directors</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>LNAV</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>VNAV</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Minimums Ref</td>
+                    <td>Baro/Radio</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Minimums</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Altimiter Ref.</td>
+                    <td>In/Hpa</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Auto Brake</td>
+                    <td>RTO</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Com Radios</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Doors</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+            <br>
+            <table class=table.left, style="row-gap: 0px; left: 10px; width: 100%;">
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;" colspan="3" class="headText">Before Start Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Request Pushback Clearance</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class="""></td>
+                <td>Autothrottle</td>
+                <td>Arm</td>
+            </tr>
+            <tr style=" display: flexbox;">
+                    <td><input type="checkbox" class="""></td>
+                <td>Fuel Pumps</td>
+                <td>As Req.</td>
+            </tr>
+            <tr style=" display: flexbox;">
+                    <td><input type="checkbox" class="""></td>
+                <td>Elec Hyd Pumps</td>
+                <td>On</td>
+            </tr>
+            <tr style=" display: flexbox;">
+                    <td><input type="checkbox" class="""></td>
+                <td>Anti Coll Light</td>
+                <td>On</td>
+            </tr>
+            <tr style=" display: flexbox;">
+                    <td><input type="checkbox" class="""></td>
+                <td>Parking Brake</td>
+                <td>On</td>
+            </tr>
+            <tr style=" display: flexbox;">
+                    <td><input type="checkbox" class="""></td>
+                <td>Ground Equipment</td>
+                <td>Removed</td>
+            </tr>
+            <tr style=" display: flexbox;">
+                    <td><input type="checkbox" class="""></td>
+                <td>Engine Area</td>
+                <td>Clear</td>
+            </tr>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+            <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Engine Start Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                <td><input type="checkbox" class="""></td>
+                    <td>Sec Display Unit</td>
+                    <td>Engine</td>
+                </tr>
+                <tr style=" display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Packs</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine 4 Start Swtich</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine 4 Fuel Control</td>
+                    <td>Run</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine 3 Start Swtich</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine 3 Fuel Control</td>
+                    <td>Run</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine 2 Start Swtich</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine 2 Fuel Control</td>
+                    <td>Run</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine 1 Start Swtich</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine 1 Fuel Control</td>
+                    <td>Run</td>
+                </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Before Taxi Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Generators 1,2,3,4</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Probe Heat</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Wing Anti Ice</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine Anti Ice</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine Bleed</td>
+                    <td>All On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Packs</td>
+                    <td>Auto</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Isolation Valve</td>
+                    <td>Auto</td>
+                </tr>
+                
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>APU Bleed</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>APU</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Flaps</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Elevator Trim</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Flight Controls</td>
+                    <td>Free & Correct</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Recall</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Lower Display Unit</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Request Taxi Clearance</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Taxi Lights</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Runway Turn Lights</td>
+                    <td>As Req.</td>
+                </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Before Takeoff Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Parking Brake</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Anti Ice</td>
+                    <td>As. Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Cabin Lights</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Flight Instruments</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine Instruments</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Takeoff Data</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Nav Equipment</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Request Takeoff Clearance</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Landing Lights</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Strobe Lights</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Taxi Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Transponder</td>
+                    <td>Ta/Ra</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>TFC</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Clock</td>
+                    <td>Start</td>
+                </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">After Takeoff Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Positive Rate Of Climb</td>
+                    <td>Gear Up</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Auto Brake</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Runway Turn Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Cabin Lights</td>
+                    <td>As Req.</td>
+                </tr>
+            </table>
+        </div>
+            <div class="righttable", style="padding-top: 30px; float: right;padding-right: 50px;">
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+            <tr>
+                <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                    colspan="3" class="headText">Climb Out Checklist</th>
+            </tr>
+            <tr style="display: flexbox;">
+                <td><input type="checkbox" class=""></td>
+                <td>CMD A/B</td>
+                <td>Engage</td>
+            </tr>
+            <tr style="display: flexbox;">
+                <td><input type="checkbox" class=""></td>
+                <td>Flaps</td>
+                <td>Retract</td>
+            </tr>
+            <tr style="display: flexbox;">
+                <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Passing Transition Altitude</td>
+            </tr>
+            <tr style="display: flexbox;">
+                <td><input type="checkbox" class=""></td>
+                <td>Altimiter</td>
+                <td>STD</td>
+            </tr>
+            <tr style="display: flexbox;">
+                <td><input type="checkbox" class=""></td>
+                <td>Below 10,000</td>
+                <td>Under 250 KIAS</td>
+            </tr>
+            <tr style="display: flexbox;">
+                <td><input type="checkbox" class=""></td>
+                <td>ATC</td>
+                <td>As Req.</td>
+            </tr>
+            <tr style="display: flexbox;">
+                <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Passing 10,000ft</td>
+            </tr>
+            <tr style="display: flexbox;">
+                <td><input type="checkbox" class=""></td>
+                <td>Landing Lights</td>
+                <td>Off</td>
+            </tr>
+            <tr style="display: flexbox;">
+                <td><input type="checkbox" class=""></td>
+                <td>Passenger Sign</td>
+                <td>Off</td>
+            </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Descent Preperation</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine and Instruments</td>
+                    <td>Monitor</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Fuel Quantity</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Lights</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Before TOD</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>ATIS/Airport Info</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Altimiter</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Radios</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Reset MCP Altitude</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>FMS Appr. Speed Ref</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Localizer Freq.</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>ILS Loc Course</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Descent</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>De-Ice</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Landing Alt</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Recall</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Radio Alt/Baro Min</td>
+                    <td>Set, Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Auto Brake</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Passing Transition Altitude</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Altimiter</td>
+                    <td>Reset To Local</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Below 10,000ft</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Speed</td>
+                    <td>Under 250 KIAS</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Landing Lights</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Passenger Signs</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">Check Weather</td>
+                </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Approach Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Altimiter</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Localizer Freq.</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Localizer Course</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>App</td>
+                    <td>Arm</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Glideslope Alive</td>
+                    <td>Gear Down</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Flaps</td>
+                    <td>15</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Speedbrake</td>
+                    <td>Arm</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>CMD B</td>
+                    <td>Arm (When ILS est.)</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Landing Flaps</td>
+                    <td>Set</td>
+                </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Landing Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Go-Around Altitude</td>
+                    <td>Check</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Runway Turn Lights</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Landing Gear</td>
+                    <td>Check, Down</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Autopilot</td>
+                    <td>As. Req</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Autothrottle</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td colspan="3", style="color: black; font-style: italic; font-weight: bold;">After Tuchdown</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Thrust Reverse</td>
+                    <td>Engage</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Autopilot</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Autothrottle</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>At 60KTS</td>
+                    <td>Rev Thrust Idle</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>At 30KTS</td>
+                    <td>Auto Brake Disengage</td>
+                </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">After Landing Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Transponder</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Flaps</td>
+                    <td>Retract</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Speedbrake</td>
+                    <td>Down</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Landing Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Strobe Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Taxi Lights</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Cabin Lights</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Anti Ice</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>APU</td>
+                    <td>Start</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Probe Heat</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Autobrake</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Runway Turn Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>APU Gen</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Taxi Lights</td>
+                    <td>Off</td>
+                </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Shutdown Checklist</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Parking Brake</td>
+                    <td>Set</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Engine Fuel Levers</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Ground Contact/Ops.</td>
+                    <td>As. Req</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Passenger Signs</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>APU Bleed</td>
+                    <td>On</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Anti Coll Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Fuel Pumps</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Anti Ice</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Elec Hyd Pumps</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Isolation Valve</td>
+                    <td>Open</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Flight Director</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Exterior Lights</td>
+                    <td>As Req.</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Doors</td>
+                    <td>Open</td>
+                </tr>
+            </table>
+            <table style="row-gap: 0px; left: 10px; width: 100%;">
+                <br>
+                <tr>
+                    <th style="background-color: rgb(156, 222, 255); color: black; border: 0px; border-bottom: 2px solid black;"
+                        colspan="3" class="headText">Securing Aircraft</th>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>IRS Selectors</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>APU</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Emer Exit Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Window Heat</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Packs</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Cabin Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Exterior Lights</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>STBY Power</td>
+                    <td>Off</td>
+                </tr>
+                <tr style="display: flexbox;">
+                    <td><input type="checkbox" class=""></td>
+                    <td>Battery</td>
+                    <td>Off</td>
+                </tr>
+            </table>
+        </div>
+        <table style="row-gap: 0px; left: px; width: 100%; border-width: 0px;"></table>
+            <br>
+            <center>
+                <h3 style="color: red; font-size:70%;">Checklists Provided By Sim Checklists</h3>
+                <h3 style="color: red; font-size:70%;">For Simulation Purposes Only <br> Not for real world use</h3>
+                <h3 style="color: red; font-size:70%;">Please report all issues <a href="https://github.com/SimChecklist/SimChecklist.github.io/issues/new" target="_blank" rel="noopener noreferrer">here</a></h3>
+                <h3 style="color: red; font-size:70%;">Or in my <a href="https://discord.gg/fF4dXH268F">Discord</a></h3>
+            </center>
+    </div>
+</body>
+<br>
